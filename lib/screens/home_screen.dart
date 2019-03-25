@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rhgbmss/screens/drawer_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   final String title;
@@ -11,6 +12,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(title),
       ),
+      drawer: DrawerScreen(),
       body: Center(
         child: Text('Welcome to RHGBMSS'),
       ),
